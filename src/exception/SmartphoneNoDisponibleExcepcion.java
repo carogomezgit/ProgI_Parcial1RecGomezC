@@ -1,7 +1,7 @@
-package Exception;
+package exception;
 
 public class SmartphoneNoDisponibleExcepcion extends RuntimeException {
-  public SmartphoneNoDisponibleExcepcion(String message) {
-    super(message);
+  public SmartphoneNoDisponibleExcepcion(String mensaje) {
+    super(mensaje);
   }
 }
